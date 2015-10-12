@@ -65,16 +65,16 @@ public final class R {
         public static final int solid_blue_rotate=0x7f02001c;
     }
     public static final class id {
-        public static final int action_scan=0x7f09001b;
+        public static final int action_scan=0x7f09001e;
         public static final int apps_list=0x7f090000;
         public static final int imageDT=0x7f090004;
         public static final int imageFST=0x7f090006;
         public static final int imageSP=0x7f09000c;
         public static final int imageWI=0x7f090008;
         public static final int imageWO=0x7f09000a;
-        public static final int item_app_icon=0x7f09000e;
-        public static final int item_app_label=0x7f09000f;
-        public static final int item_app_name=0x7f090010;
+        public static final int item_app_icon=0x7f090011;
+        public static final int item_app_label=0x7f090012;
+        public static final int item_app_name=0x7f090013;
         public static final int linearLayout1=0x7f090001;
         public static final int main_DT_btn=0x7f090005;
         public static final int main_FST_btn=0x7f090007;
@@ -83,26 +83,30 @@ public final class R {
         public static final int main_WO_btn=0x7f09000b;
         public static final int main_armstatus=0x7f090003;
         public static final int main_status=0x7f090002;
-        public static final int myosdk__action_scan=0x7f09001c;
-        public static final int myosdk__connection_state_dot=0x7f090014;
-        public static final int myosdk__fragment_scan=0x7f090011;
-        public static final int myosdk__progress=0x7f090013;
-        public static final int myosdk__required_firmware_version_text=0x7f090012;
-        public static final int myosdk__scan_result_view=0x7f090015;
-        public static final int noti_exit=0x7f09001a;
-        public static final int noti_icon=0x7f090017;
-        public static final int noti_label=0x7f090019;
-        public static final int noti_layout=0x7f090016;
-        public static final int noti_name=0x7f090018;
+        public static final int myosdk__action_scan=0x7f09001f;
+        public static final int myosdk__connection_state_dot=0x7f090017;
+        public static final int myosdk__fragment_scan=0x7f090014;
+        public static final int myosdk__progress=0x7f090016;
+        public static final int myosdk__required_firmware_version_text=0x7f090015;
+        public static final int myosdk__scan_result_view=0x7f090018;
+        public static final int next_btn=0x7f090010;
+        public static final int noti_exit=0x7f09001d;
+        public static final int noti_icon=0x7f09001a;
+        public static final int noti_label=0x7f09001c;
+        public static final int noti_layout=0x7f090019;
+        public static final int noti_name=0x7f09001b;
+        public static final int play_pause_btn=0x7f09000e;
+        public static final int prev_btn=0x7f09000f;
     }
     public static final class layout {
         public static final int activity_apps_list=0x7f030000;
         public static final int activity_main=0x7f030001;
-        public static final int list_item=0x7f030002;
-        public static final int myosdk__activity_scan=0x7f030003;
-        public static final int myosdk__device_list_item=0x7f030004;
-        public static final int myosdk__fragment_scan=0x7f030005;
-        public static final int noti_exit=0x7f030006;
+        public static final int activity_music_activity=0x7f030002;
+        public static final int list_item=0x7f030003;
+        public static final int myosdk__activity_scan=0x7f030004;
+        public static final int myosdk__device_list_item=0x7f030005;
+        public static final int myosdk__fragment_scan=0x7f030006;
+        public static final int noti_exit=0x7f030007;
     }
     public static final class menu {
         public static final int main=0x7f080000;

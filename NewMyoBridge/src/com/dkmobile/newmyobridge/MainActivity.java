@@ -27,6 +27,7 @@ import android.widget.TextView;
 public class MainActivity extends Activity implements OnLongClickListener {
 
     BackgroundService mBackgroundService = null;
+    
     private ServiceConnection mConnection = new ServiceConnection() {
         @Override
         public void onServiceConnected(ComponentName name, IBinder service) {
@@ -39,6 +40,7 @@ public class MainActivity extends Activity implements OnLongClickListener {
             Log.d("MYOSERVICE", "onServiceDisConnected()");
         }
     };
+    
     Intent serviceIntent = new Intent("com.dkmobile.newmyobridge.BackgroundService");
 
     private TextView statusTextView;

@@ -45,7 +45,11 @@
             </intent-filter>
         </service>
 
-        
+        <activity android:name="com.dkmobile.newmyobridge.music.MusicActivityVersion">
+            <intent-filter >
+                <action android:name="com.dkmobile.newmyobridge.music.activity"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
